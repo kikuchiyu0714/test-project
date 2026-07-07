@@ -19,9 +19,9 @@ function App() {
 
   return (
     <div style={{ fontFamily: 'sans-serif', padding: '2rem' }}>
-      <h1>React + Node.js + MySQL サンプル</h1>
+      <h1>React + Node.js サンプル</h1>
       <button onClick={checkHealth} disabled={loading}>
-        {loading ? '確認中...' : 'DB接続を確認する'}
+        {loading ? '確認中...' : 'ヘルスチェックを確認する'}
       </button>
       {result && (
         <pre style={{ marginTop: '1rem', background: '#f0f0f0', padding: '1rem' }}>
